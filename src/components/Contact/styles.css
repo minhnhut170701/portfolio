@@ -1,0 +1,9 @@
+.hidden-pop{
+    transition: 0.5s all ease-in;
+    opacity: 0;
+}
+
+.pop:hover .hidden-pop{
+   opacity: 1;
+   
+}
