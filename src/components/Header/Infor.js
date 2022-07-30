@@ -4,9 +4,9 @@ import Typed from "react-typed"
 const Infor = () => {
   return (
     <div className='lg:w-[80%] w-ful mx-auto p-14'>
-        <div className='flex lg:flex-row flex-col space-x-4'>
-            <section className='space-y-10 p-6'>
-                <Typed className='text-6xl font-bold'
+        <div className='flex lg:flex-row flex-col space-x-4 items-center'>
+            <section className='lg:space-y-10 lg:p-6 space-y-5 p-4'>
+                <Typed className='lg:text-6xl text-3xl font-bold'
             strings={[
                   "Hi, I'am Lucas 👋",
                 ]}
@@ -27,7 +27,8 @@ const Infor = () => {
                
             </section>
             <section>
-                <img src={image} alt="Lucas Nguyen" className='lg:w-[30rem] lg:h-[30rem] outline-offset-[-10px] 
+                <img src={image} alt="Lucas Nguyen" className='lg:w-[30rem] lg:h-[30rem]
+                w-[20rem] h-[20rem] outline-offset-[-10px] 
                  outline-white mt-[40px]' style={{outline: '1px solid #fff'}} />
             </section>
             

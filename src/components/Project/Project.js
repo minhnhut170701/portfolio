@@ -6,7 +6,7 @@ import webNovel from "../../images/project-3.png"
 const Project = () => {
   return (
     <div className='mt-[100px] w-[80%] mx-auto'>
-        <h2 className='text-center text-[6rem] uppercase font-bold'>My Project</h2>
+        <h2 className='text-center lg:text-[6rem] text-[2rem] uppercase font-bold'>My Project</h2>
         <Item image={movieapp} 
         bgColor='linear-gradient(120deg, rgb(211, 224, 255), rgb(234, 234, 255))'
         name='Website Movie'

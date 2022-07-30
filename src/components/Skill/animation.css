@@ -8,13 +8,13 @@
 z-index: -20;
 }
 
+
 .animation-hover:hover{
   filter: brightness(1.2);
   backdrop-filter: blur(3px) saturate(200%);
   transition: all 0.6s;
 }
 @keyframes bool {
- 
   50%{
     transform:  translateX(-200px);
     

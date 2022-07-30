@@ -13,7 +13,7 @@ const Item = ({image, bgColor, name, about, techFrontEnd, techBackEnd, linkDemo,
               <p><span className='mr-3 font-bold text-xl'>&rarr;</span>FrontEnd: {techFrontEnd}</p>
               <p><span className='mr-3 font-bold text-xl'>&rarr;</span>BackEnd: {techBackEnd}</p> 
             </article>
-            <div className='space-x-4'>
+            <div className='lg:space-x-4 flex lg:flex-row flex-col  lg:space-y-0 space-y-4  '>
               <a href={linkDemo} rel="noopener noreferrer" target="_blank" 
               className='p-3 border border-black'>
                 View Demo</a>

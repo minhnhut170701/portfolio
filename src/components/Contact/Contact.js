@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div style={{backgroundImage: `url(${background})`}} 
     className='lg:h-[950px] w-full bg-no-repeat bg-cover mt-[100px]'>
-        <h1 className='text-[8rem] text-white text-center'>Get in touch</h1>
+        <h1 className='lg:text-[8rem] md:text-[6rem] sm:text-[4rem] text-[3rem]  text-white text-center'>Get in touch</h1>
         <ContactForm />
         <Media />
     </div>
